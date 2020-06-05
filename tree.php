@@ -25,7 +25,7 @@ $rootParents = $categoryRepository->getRootParentList();
     <h1>Category Tree</h1>
     <div class="container" style="margin-top:30px;">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <ul id="tree1">
                     <?php foreach ($rootParents as $parent) : ?>
                         <?php
